@@ -54,7 +54,7 @@ window.onscroll = function () {
     window.scrollTo({ top: 0, behavior: "smooth" });
   });
 };
-let countDte = new Date("Dec 31,2023 23:59:59").getTime();
+let countDte = new Date("Dec 31,2026 23:59:59").getTime();
 let vp = new Date();
 let counter = setInterval(() => {
   let dateNow = new Date().getTime();
